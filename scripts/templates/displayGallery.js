@@ -1,6 +1,6 @@
-import { heart } from "../../assets/icons/heart.js";
+
 import { card } from "../class/card.js";
-export function displayGallery(medias,dataPhotograph) {
+export function displayGallery(medias) {
 
 
   var list = document.querySelectorAll("article");

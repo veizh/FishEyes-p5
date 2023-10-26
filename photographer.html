@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
   <head>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
@@ -66,20 +67,20 @@
 			<div class="modal">
 				<header>
           <h2>Contactez-moi</h2>
-          <button  role="button" tabindex="0" class="close_btn"><img src="assets/icons/close.svg" class="close-modal" /></button>
+          <button  role="button" tabindex="0" class="close_btn"><img src="assets/icons/close.svg" alt="button close icone"class="close-modal" /></button>
         </header>
 				<form>
 					<div>
 						<label  for="name" type="text">Prénom</label>
-						<input  name="name"/>
+						<input  name="name" type="text" id="name"></input>
 					</div>
           <div>
 						<label for="mail">email</label>
-						<input name="mail"  type="email"/>
+						<input name="mail"  id="mail" type="email"/>
 					</div>
           <div>
 						<label for="message">message</label>
-						<input name="message" type="text-area"/>
+						<input name="message" id="message" type="text-area" placeholder="hello ...."></input>
 					</div>
           <button  class="contact_button contact_button_submit">Envoyer</button>
 				</form>

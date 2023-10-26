@@ -112,7 +112,6 @@ export class card {
     }
     updateLike () {
         this.heartBtn.addEventListener('click', ()  => {
-            console.log(this.likeCount);
             if (this.heartBtn.classList.contains('liked')) {
                 this.likes--;
                 this.likeCount.textContent = this.likes;
